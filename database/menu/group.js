@@ -1,101 +1,49 @@
 const group = (prefix, botName, ownerName) => {
         return `
-┏ *〈 ${botName} 〉*
-╿
-┷┯ *〈 BOT INFO 〉*
-   ╽
-   ┠≽ *Prefix* : 「  ${prefix}  」
-   ┠≽ *Creator* : ${ownerName}
-   ┠≽ *Version* : 0.0.5
-   ╿
-┯┷ *〈 ABOUT 〉*
-╽
-┠≽ *${prefix}info* (error)
-┃ *Desc* : Show Bot Details
-┠──────────────╼
-┠≽ *${prefix}blocklist*
-┃ *Desc* : Show Blocked User
-┠──────────────╼
-┠≽ *${prefix}chatlist* (error)
-┃ *Desc* : Show All Chat User
-┠──────────────╼
-┠≽ *${prefix}ping*
-┃ *Desc* : Show Connection Bot Speed
-┠──────────────╼
-┠≽ *${prefix}bugreport* <text>
-┃ *Desc* : Report Bug To Owner Bot
-╿
-┷┯ *〈 GROUP 〉*
-   ╽
-   ┠≽ *${prefix}opengc*
-   ┃ *Desc* : Opening Group
-   ┠──────────────╼
-   ┠≽ *${prefix}closegc*
-   ┃ *Desc* : Closing the Group
-   ┠──────────────╼
-   ┠≽ *${prefix}promote* <@tag>
-   ┃ *Desc* : Promote People to be Admins Group
-   ┠──────────────╼
-   ┠≽ *${prefix}demote* <@tag>
-   ┃ *Desc* : Demote People to be Members Group
-   ┠──────────────╼
-   ┠≽ *${prefix}tagall*
-   ┃ *Desc* : Mention All Members
-   ┠──────────────╼
-   ┠≽ *${prefix}tagall2*
-   ┃ *Desc* : Mention All Members
-   ┠──────────────╼
-   ┠≽ *${prefix}tagall3*
-   ┃ *Desc* : Mention All Members
-   ┠──────────────╼
-   ┠≽ *${prefix}tagall4*
-   ┃ *Desc* : Mention All Members
-   ┠──────────────╼
-   ┠≽ *${prefix}tagall5*
-   ┃ *Desc* : Mention All Members
-   ┠──────────────╼
-   ┠≽ *${prefix}add* <12542123926>
-   ┃ *Desc* : Add Members
-   ┠──────────────╼
-   ┠≽ *${prefix}kick* <@tag>
-   ┃ *Desc* : Kick Member Group
-   ┠──────────────╼
-   ┠≽ *${prefix}listadmins*
-   ┃ *Desc* : Show List Group Admins
-   ┠──────────────╼
-   ┠≽ *${prefix}linkgroup*
-   ┃ *Desc* : Show Group Link
-   ┠──────────────╼
-   ┠≽ *${prefix}leave*
-   ┃ *Desc* : Tell the Bot to Leave the Group
-   ┠──────────────╼
-   ┠≽ *${prefix}welcome* <1/0>
-   ┃ *Desc* : Activating / Deactivating the Welcome Feature
-   ┠──────────────╼
-   ┠≽ *${prefix}nsfw* <1/0>
-   ┃ *Desc* : Activating / Deactivating the NSFW Feature
-   ┠──────────────╼
-   ┠≽ *${prefix}delete*
-   ┃ *Desc* : Delete Bot Message
-   ┠──────────────╼
-   ┠≽ *${prefix}simih* <1/0>
-   ┃ *Desc* : Activating / Deactivating the Simih Feature
-   ┠──────────────╼
-   ┠≽ *${prefix}tagme*
-   ┃ *Desc* : Mention You
-   ┠──────────────╼
-   ┠≽ *${prefix}ownergroup*
-   ┃ *Desc* : Shows who the Group Owner is
-   ┠──────────────╼
-   ┠≽ *${prefix}antilinkgroup* <1/0>
-   ┃ *Desc* : Activating / Deactivating the Anti Badword Feature
-   ┠──────────────╼
-   ┠≽ *${prefix}antibadwordgroup* <enable/disable>
-   ┃ *Desc* : Activating / Deactivating the Anti Link Feature
-   ┠──────────────╼
-   ┠≽ *${prefix}listbadword*
-   ┃ *Desc* : Show a Badword List
-   ╿ *${ownerName}*,
-   ╰╼≽ *Developer © ${botName}`
+𝑺𝑬𝑱𝑨𝑴 𝑩𝑬𝑴 𝑽𝑰𝑵𝑫𝑶𝑺 𝑨𝑶 𝑴𝑬𝑵𝑼 𝑫𝑶
+💎 ▁▂▃༻  ${botName}   ༺▃▂▁ 💎
+
+╔═════ ❯ 𝑮𝑹𝑼𝑷𝑶 ❮ ════════
+║
+║ ❯ *${prefix}opengc*
+║      *Desc* : Abrir  grupo
+║
+║ ❯ *${prefix}closegc
+║      *Desc* : Fechar grupo
+║
+║ ❯ *${prefix}bemvindo* <1/0>
+║      *Desc* : Ativar bem-vindo no grupo
+║
+║ ❯ *${prefix}criadorgrup*
+║      *Desc* : Criador do grupo
+║
+║ ❯ *${prefix}tagme*
+║      *Desc* : Se marcar
+║
+║ ❯ *${prefix}promover* <@tag>
+║      *Desc* : Promover membro
+║
+║ ❯ *${prefix}rebaixar* <@tag>
+║      *Desc* : Rebaixar membro
+║
+║ ❯ *${prefix}marcar*
+║      *Desc* : Marcar todos os membros
+║
+║ ❯ *${prefix}add* <@tag>
+║      *Desc* : Adicionar membro
+║
+║ ❯ *${prefix}remover* <@tag>
+║      *Desc* : Remover membro
+║
+║ ❯ *${prefix}nsfw* <1/0>
+║      *Desc* Ativar / Desativar nsfw no grupo
+║
+║ ❯ *${prefix}simih* <1/0>
+║      *Desc* Ativar / Desativar simi no grupo
+║
+║ ❯ *${prefix}listadmins*
+║      *Desc* : Mostrar lista de admins
+║
+╚════❯ *Developer © ${botName}`
 }
 exports.group = group

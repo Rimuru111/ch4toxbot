@@ -1,8 +1,9 @@
 const help = (pushname, prefix, botName, ownerName, reqXp, uangku) => {
         return `
-╔══ ❯ ${botName} ❮ ═══
-║
-╠══════ ❯ 𝑰𝑵𝑭𝑶 𝑫𝑶 𝑼𝑺𝑼𝑨𝑹𝑰𝑶 ❮ ══════
+𝑺𝑬𝑱𝑨𝑴 𝑩𝑬𝑴 𝑽𝑰𝑵𝑫𝑶𝑺 𝑨𝑶 𝑴𝑬𝑵𝑼 𝑫𝑶
+💎 ▁▂▃༻  ${botName}   ༺▃▂▁ 💎
+
+╔══════ ❯ 𝑰𝑵𝑭𝑶 𝑫𝑶 𝑼𝑺𝑼𝑨𝑹𝑰𝑶 ❮ ══════
 ║
 ║ ❯ *Nome* : ${pushname}
 ║ ❯ *XP* : ${reqXp}
@@ -18,10 +19,10 @@ const help = (pushname, prefix, botName, ownerName, reqXp, uangku) => {
 ║
 ╠═════ ❯ 𝑭𝑰𝑮𝑼𝑹𝑰𝑵𝑯𝑨 ❮ ════════
 ║
-║❯ *${prefix}sticker*
+║❯ *${prefix}figu*
 ║     *Desc* : Fazer figurinha com imagem
 ║
-║❯ *${prefix}stickergif*
+║❯ *${prefix}figugif*
 ║     *Desc* : Fazer figurinha com Gif / vídeo
 ║
 ║❯ *${prefix}ttp*
@@ -29,18 +30,18 @@ const help = (pushname, prefix, botName, ownerName, reqXp, uangku) => {
 ║
 ╠═════ ❯ 𝑴𝑬𝑵𝑼 ❮ ════════
 ║
-║❯ *${prefix}logomakermenu*
-║ ❯ *${prefix}imagemakermenu*
-║ ❯ *${prefix}stickermakermenu*
+║ ❯ *${prefix}logomenu*
+║ ❯ *${prefix}imagemenu*
+║ ❯ *${prefix}figumenu*
 ║ ❯ *${prefix}downloadermenu*
 ║ ❯ *${prefix}mememenu*
 ║ ❯ *${prefix}groupmenu*
-║ ❯ *${prefix}musicmenu*
+║ ❯ *${prefix}menumusica*
 ║ ❯ *${prefix}stalkmenu*
-║ ❯ *${prefix}wibumenu*
-║ ❯ *${prefix}18+menu*
+║ ❯ *${prefix}animemenu*
+║ ❯ *${prefix}menuadulto*
 ║ ❯ *${prefix}xpmenu*
-║ ❯ *${prefix}ownermenu*
+║ ❯ *${prefix}menudono*
 ║ ❯ *${prefix}othermenu*
 ║
 ╠═════ ❯ 𝑽𝑨𝑹𝑰𝑨𝑫𝑶𝑺 ❮ ════════
@@ -48,7 +49,7 @@ const help = (pushname, prefix, botName, ownerName, reqXp, uangku) => {
 ║ ❯ *${prefix}qrcode* <text>
 ║ ❯ *${prefix}meme*
 ║ ❯ *${prefix}memeindo
-║ ❯ *${prefix}chatlist* (erro)
+║ ❯ *${prefix}listachat* (erro)
 ║      *Desc* : lista me membros
 ║
 ║ ❯ *${prefix}ping*
@@ -59,7 +60,7 @@ const help = (pushname, prefix, botName, ownerName, reqXp, uangku) => {
 ║
 ╠═════ ❯ 𝑨𝑫𝑼𝑳𝑻𝑶 ❮ ════════
 ║
-║ ❯ *${prefix} randomhentai*
+║ ❯ *${prefix}hentai*
 ║      *Desc* : Imagem aleatório de hentai
 ║
 ║ ❯ *${prefix}nsfwneko*
@@ -76,24 +77,24 @@ const help = (pushname, prefix, botName, ownerName, reqXp, uangku) => {
 ║ ❯ *${prefix}joox* <music_name>
 ║      *Desc* : Iniciar Música Joox
 ║
-║ ❯ *${prefix}lirik* <music_name>
+║ ❯ *${prefix}letra* <music_name>
 ║      *Desc* Procurar letra de Música
 ║
 ╠═════ ❯ 𝑮𝑹𝑼𝑷𝑶 ❮ ════════
 ║
-║ ❯ *${prefix}promote* <@tag>
+║ ❯ *${prefix}promover* <@tag>
 ║      *Desc* : Promover membro
 ║
-║ ❯ *${prefix}demite* <@tag>
+║ ❯ *${prefix}rebaixar* <@tag>
 ║      *Desc* : Rebaixar membro
 ║
-║ ❯ *${prefix}tagall*
+║ ❯ *${prefix}marcar*
 ║      *Desc* : Marcar todos os membros
 ║
-║ ❯ *${prefix}add* <12542123926>
+║ ❯ *${prefix}add* <@tag>
 ║      *Desc* : Adicionar membro
 ║
-║ ❯ *${prefix}kick* <@tag>
+║ ❯ *${prefix}remover* <@tag>
 ║      *Desc* : Remover membro
 ║
 ║ ❯ *${prefix}nsfw* <1/0>
