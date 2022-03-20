@@ -1,10 +1,10 @@
 {
-    "botName": "𝑱𝑨𝑹𝑽𝑰𝑺",
-    "ownerName": "@loo4n",
-    "BarBarKey": "YOUR_APIKEY",
-    "ownerNumbers": "21990711101@s.whatsapp.net",
-    "languages": "ind",
-    "botPrefix": ".",
-    "memberLimitss": "1",
-    "userDefaultLimit": "30"
+    "botName": "Ciel",
+    "ownerName": "Bratin",
+    "BarBarKey": "A4wJwkoSak82hj82NWo92",
+    "ownerNumbers": "917076405925@s.whatsapp.net",
+    "languages": "eng",
+    "botPrefix": "-",
+    "memberLimitss": "100",
+    "userDefaultLimit": "30000"
 }
