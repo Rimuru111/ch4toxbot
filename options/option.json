@@ -5,6 +5,6 @@
     "ownerNumbers": "917076405925@s.whatsapp.net",
     "languages": "eng",
     "botPrefix": "-",
-    "memberLimitss": "100",
-    "userDefaultLimit": "30000"
+    "memberLimitss": "25",
+    "userDefaultLimit": "30"
 }
